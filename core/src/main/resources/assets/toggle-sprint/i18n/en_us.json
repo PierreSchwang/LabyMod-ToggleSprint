@@ -1,0 +1,30 @@
+{
+  "toggle-sprint" : {
+    "hudWidget": {
+      "state_indicator_sprint": {
+        "name": "Toggle Sprint Indicator"
+      },
+      "state_indicator_sneak": {
+        "name": "Toggle Sneak Indicator"
+      }
+    },
+    "settings" : {
+      "name" : "Toggle Sprint",
+      "enabled" : {
+        "name" : "Enabled"
+      },
+      "toggleSneak" : {
+        "name" : "Toggle Sneak"
+      },
+      "toggleSprint" : {
+        "name" : "Toggle Sprint"
+      },
+      "flyBoost" : {
+        "name" : "Fly Boost"
+      },
+      "flyBoostMultiplicity" : {
+        "name" : "Fly Boost Multiplicity"
+      }
+    }
+  }
+}

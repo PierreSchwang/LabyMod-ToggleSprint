@@ -1,4 +1,4 @@
-rootProject.name = "labymod4-addon-template"
+rootProject.name = "labymod-toggle-sprint"
 
 include(":api")
 include(":core")

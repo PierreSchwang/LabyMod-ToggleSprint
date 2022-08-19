@@ -36,7 +36,7 @@ plugins {
     id("java-library")
 }
 
-group = "org.example"
+group = "de.pierreschwang.labymod"
 version = "1.0.0"
 
 plugins.apply("net.labymod.gradle.addon")
@@ -60,14 +60,12 @@ subprojects {
 
 addon {
     addonInfo {
-        namespace("example")
-        displayName("Example Addon")
-        author("Example Author")
+        namespace("toggle-sprint")
+        displayName("ToggleSprint")
+        author("Pierre Maurice Schwang")
         description("An Example Description!")
         version(System.getenv().getOrDefault("VERSION", "0.0.0"))
-
-        //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
-        //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))
+        iconUrl("https://dl.labymod.net/latest/addons/a71154bc-8536-11e7-bb31-be2e44b06b34/icon.png", project(":core"))
     }
     
     internalRelease()
